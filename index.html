@@ -1,21 +1,31 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html dir="rtl" lang="fa">
 <head>
     <meta charset="UTF-8">
     <title>Arshi Travel</title>
+    <style>
+        @font-face {
+            font-family: "dana";
+            src: url("/fonts/DanaVF.woff") format("woff");
+        }
+
+        * {
+            font-family: "dana", sans-serif;
+        }
+    </style>
 </head>
 <body>
-<header class="h-[70px] border-b border-gray-300 fixed w-full z-50 top-0 left-0 bg-white/90 backdrop-blur-[20px]">
+<header class="h-[100px] border-b border-gray-300 fixed w-full z-50 top-0 left-0 bg-white/90 backdrop-blur-[20px]">
     <div class="mx-auto lg:w-[calc(100vw-140px)] w-[calc(100vw-100px)] flex justify-between items-center h-full">
         <nav>
             <ul class="flex items-center justify-center gap-[50px]">
                 <li class="flex items-center justify-center gap-[10px] flex-row-reverse">
                     خانه
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <path d="M12 18V15" stroke="black" stroke-width="2" stroke-linecap="round"
-                              stroke-linejoin="round"/>
+                    <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 18V15" stroke="black" stroke-linecap="round" stroke-linejoin="round"
+                              stroke-width="2"/>
                         <path d="M10.07 2.82L3.14002 8.37C2.36002 8.99 1.86002 10.3 2.03002 11.28L3.36002 19.24C3.60002 20.66 4.96002 21.81 6.40002 21.81H17.6C19.03 21.81 20.4 20.65 20.64 19.24L21.97 11.28C22.13 10.3 21.63 8.99 20.86 8.37L13.93 2.83C12.86 1.97 11.13 1.97 10.07 2.82Z"
-                              stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
                     </svg>
                 </li>
                 <!--                <li class="flex items-center justify-center gap-[10px] flex-row-reverse">-->
@@ -60,25 +70,24 @@
                 <!--                </li>-->
             </ul>
         </nav>
-        <a href="" class="rounded-full flex justify-center items-center text-white gap-[10px] px-4 py-3  bg-black">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <a class="rounded-full font-bold text-[18px] flex justify-center items-center text-white gap-[10px] px-4 py-4  bg-black" href="">
+            <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
                 <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="white"
-                      stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
                 <path d="M15.5 9.75C16.3284 9.75 17 9.07843 17 8.25C17 7.42157 16.3284 6.75 15.5 6.75C14.6716 6.75 14 7.42157 14 8.25C14 9.07843 14.6716 9.75 15.5 9.75Z"
-                      stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
-                      stroke-linejoin="round"/>
+                      stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+                      stroke-width="2"/>
                 <path d="M8.5 9.75C9.32843 9.75 10 9.07843 10 8.25C10 7.42157 9.32843 6.75 8.5 6.75C7.67157 6.75 7 7.42157 7 8.25C7 9.07843 7.67157 9.75 8.5 9.75Z"
-                      stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
-                      stroke-linejoin="round"/>
+                      stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+                      stroke-width="2"/>
                 <path d="M8.4 13.3H15.6C16.1 13.3 16.5 13.7 16.5 14.2C16.5 16.69 14.49 18.7 12 18.7C9.51 18.7 7.5 16.69 7.5 14.2C7.5 13.7 7.9 13.3 8.4 13.3Z"
-                      stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
-                      stroke-linejoin="round"/>
+                      stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+                      stroke-width="2"/>
             </svg>
             همسفر شیم
         </a>
     </div>
 </header>
-
 <main>
     <div class="mx-auto lg:w-[calc(100vw-140px)] w-[calc(100vw-100px)] pt-[60px] pb-[50px]">
         <div class="flex lg:h-[450px] gap-[50px] mt-[50px] lg:flex-nowrap flex-wrap">
@@ -92,8 +101,12 @@
                         class="text-black text-xl font-medium leading-[30px]"> به تهران به شیراز عوض کردم, و راهی میدان شدم, سیزده ساعت راه بود و من کلی کار کردم خوبیدم بیدار شدم کتاب خوندم یه پروژه زدم و ...</span>
                 </div>
             </div>
-            <div class="lg:basis-1/2 hover:scale-[0.95] transition-all duration-300 basis-full lg:h-auto h-[500px] bg-[#B5FF7B] rounded-[30px]"
-                 style='background-image: url("/images/three.jpg");background-repeat: no-repeat ;background-size: 100%; object-fit: cover;background-position: -14px center'></div>
+            <div class="relative :basis-1/2 hover:scale-[0.95] transition-all duration-300 basis-full lg:h-auto h-[500px] bg-[#B5FF7B] rounded-[30px]"
+                 style='background-image: url("/images/three.jpg");background-repeat: no-repeat ;background-size: 100%; object-fit: cover;background-position: -14px center'>
+                <div class="absolute font-bold flex justify-center items-center py-[7px] bottom-[30px] right-[30px] bg-white border-2 border-gray-300 rounded-[10px] w-[150px]">
+                    فریال, ارشیا, صالح
+                </div>
+            </div>
         </div>
         <div class="flex lg:h-[450px] gap-[50px] mt-[50px] flex-row-reverse lg:flex-nowrap flex-wrap">
             <div class="lg:basis-1/2 basis-full">
@@ -117,8 +130,12 @@
                         class="text-black text-xl font-medium leading-[30px]"> اسمم رو گفتم و و نوشت, گفتم حاجی اذیتم نکن. گف چی شده گفتم منو نمیشناسی گف من اولین سالی هست که جزو تیم اجرایی هستم.</span>
                 </div>
             </div>
-            <div class="basis-full lg:basis-1/2 hover:scale-[0.95] transition-all duration-300 bg-black rounded-[30px] lg:h-auto h-[500px]"
-                 style='background-image: url("/images/ferial.jpg"); background-size: cover; object-fit: cover;background-position: center'></div>
+            <div class="basis-full relative lg:basis-1/2 hover:scale-[0.95] transition-all duration-300 bg-black rounded-[30px] lg:h-auto h-[500px]"
+                 style='background-image: url("/images/ferial.jpg"); background-size: cover; object-fit: cover;background-position: center'>
+                <div class="absolute font-bold flex justify-center items-center py-[7px] bottom-[30px] right-[30px] bg-white border-2 border-gray-300 rounded-[10px] w-[150px]">
+                    فریال, شکوه
+                </div>
+            </div>
         </div>
         <div class="flex lg:h-[450px] gap-[50px] mt-[50px] lg:flex-nowrap flex-wrap flex-row-reverse ">
             <div class="basis-full lg:basis-1/2">
@@ -129,12 +146,15 @@
                         class="text-black text-xl font-medium leading-[30px]"> اسمم رو گفتم و و نوشت, گفتم حاجی اذیتم نکن. گف چی شده گفتم منو نمیشناسی گف من اولین سالی هست که جزو تیم اجرایی هستم.</span>
                 </div>
             </div>
-            <div class="basis-full lg:basis-1/2 hover:scale-[0.95] transition-all duration-300 bg-black rounded-[30px] lg:h-auto h-[500px]"
-                 style='background-image: url("/images/kako.jpg"); background-size: cover; object-fit: cover;background-position: center'></div>
+            <div class="relative basis-full lg:basis-1/2 hover:scale-[0.95] transition-all duration-300 bg-black rounded-[30px] lg:h-auto h-[500px]"
+                 style='background-image: url("/images/kako.jpg"); background-size: cover; object-fit: cover;background-position: center'>
+                <div class="absolute font-bold flex justify-center items-center py-[7px] bottom-[30px] right-[30px] bg-white border-2 border-gray-300 rounded-[10px] w-[150px]">
+                    ارشیا محمدیه
+                </div>
+            </div>
         </div>
     </div>
 </main>
-
 <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </body>
 </html>
